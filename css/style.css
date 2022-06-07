@@ -12,9 +12,6 @@ html {
 }
 
 
-nav {
-
-}
 
 
 ul {
@@ -33,9 +30,7 @@ body {
 
 }
 
-.ny-name {
-  display: inline-block;
-}
+
 .site-header {
   flex-direction: row;
   position: sticky;
