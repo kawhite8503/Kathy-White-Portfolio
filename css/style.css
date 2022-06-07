@@ -11,27 +11,18 @@ html {
   box-sizing: inherit;
 }
 
-
-
-
 ul {
   list-style: none;
 }
-
 
 body {
   background-color:#dac6cb;
   background-size: cover;
 }
 
-
-.nav-bar li {
-  display: inline-block;
-
-}
-
-
-.site-header {
+.header {
+  display: flex;
   flex-direction: row;
+  width: 100%;
   position: sticky;
 }
