@@ -30,6 +30,7 @@ body {
 
 .nav-bar li {
   display: inline-block;
+
 }
 
 .ny-name {
@@ -37,4 +38,5 @@ body {
 }
 .site-header {
   flex-direction: row;
+  position: sticky;
 }
