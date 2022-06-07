@@ -13,6 +13,26 @@ html {
 
 ul {
   list-style: none;
+
+
+}
+
+.header ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+
+.name-at-corner {
+
+}
+
+.mission-pic {
+  max-width: 800;
+  max-height: 480;
 }
 
 body {
@@ -23,7 +43,6 @@ body {
 }
 .header {
   display: flex;
-  margin: 20px 0;
   width: 100%;
   
 }
