@@ -13,8 +13,6 @@ html {
 
 ul {
   list-style: none;
-
-
 }
 
 .header ul{
@@ -42,15 +40,12 @@ body {
   background-size: cover;
 }
 .header {
-  display: flex;
   width: 100%;
   
 }
 
 
 .header-elements {
-  display: flex;
-  flex-direction: row;
   width: 100%;
   margin-left: 0;
 }
