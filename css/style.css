@@ -20,9 +20,13 @@ body {
   background-size: cover;
 }
 
-.header {
+.header-elements {
   display: flex;
   flex-direction: row;
   width: 100%;
-  position: sticky;
+}
+
+.image-mission-statement {
+  position: relative;
+  max-height: 20px;
 }
