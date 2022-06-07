@@ -16,14 +16,28 @@ ul {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   background-color:#dac6cb;
   background-size: cover;
 }
+.header {
+  display: flex;
+  margin: 20px 0;
+  width: 100%;
+  
+}
+
 
 .header-elements {
   display: flex;
   flex-direction: row;
   width: 100%;
+  margin-left: 0;
+}
+
+li {
+  margin: 10px;
 }
 
 .image-mission-statement {
@@ -31,7 +45,12 @@ body {
 }
 
 .section-heading {
-  border: solid 2px #eef5ff;
-  background-color: #c6dad5;
-  color: #eef5ff;
+  border: solid 1px #bfc5c4;
+  background-color: #dbe7fb;
+  color: #b15149;
+  
+}
+
+p {
+  color: #656878;
 }
