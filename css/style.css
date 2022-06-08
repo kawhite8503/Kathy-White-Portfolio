@@ -29,8 +29,9 @@ ul {
 }
 
 .mission-pic {
-  max-width: 800;
+  max-width: 100%;
   max-height: 480;
+  object-position: 50% 50%;
 }
 
 body {
@@ -61,10 +62,16 @@ li {
 .section-heading {
   border: solid 1px #bfc5c4;
   background-color: #dbe7fb;
-  color: #b15149;
+  color: #322f2f;
   
 }
 
 p {
   color: #656878;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
