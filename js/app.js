@@ -1,37 +1,78 @@
 import
-{projectData} from "./project-data"; 
+{projectData} from "./project-data.js"; 
 
-window.onscroll = function() {scrollFunction()};
+const cardContainer = document.querySelector('#card-container')
 
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
 
-function scrollFunction() {
-if (window.pageYOffset >= sticky) {
-  navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
+let project = {
+  title: "Tic Tac Toe",
+  deployment: "",
+  image: "",
+  github: "",
+  description:"Who will prevail? X or O?"
 }
 
+let projectMarkup = projectData.map(project =>
+  `
+<div class="card" style="width: 18rem;">
+  <img src="${project.image}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">${project.title}</h5>
+    <p class="card-text">${project.description}</p>
+    <a href="#" class="btn btn-primary">${project.github}</a>
+    <a href="#" class="btn btn-secondary">${project.deployment}</a>
+  </div>
+</div>
+  `).join('')
 
 
-let wholeNav = document.querySelector('.whole-nav');
-let sticky = wholeNav.offsetTop;
+
+cardContainer.innerHTML = projectMarkup
+
+
+console.log(projectMarkup)
 
 
 
-window.onscroll = function(){
-  stickyNav()
-}
 
-function stickyNav (){
-  if (window.pageYOffset > sticky) {
-    wholeNav.classList.add("fixed")
-  } else {
-    wholeNav.classList.remove("fixed")
-  }
-}
+
+
+
+
+
+
+
+// window.onscroll = function() {scrollFunction()};
+
+// var navbar = document.getElementById("navbar");
+// var sticky = navbar.offsetTop;
+
+// function scrollFunction() {
+// if (window.pageYOffset >= sticky) {
+//   navbar.classList.add("sticky")
+//   } else {
+//     navbar.classList.remove("sticky");
+//   }
+// }
+
+
+
+// let wholeNav = document.querySelector('.whole-nav');
+// let sticky = wholeNav.offsetTop;
+
+
+
+// window.onscroll = function(){
+//   stickyNav()
+// }
+
+// function stickyNav (){
+//   if (window.pageYOffset > sticky) {
+//     wholeNav.classList.add("fixed")
+//   } else {
+//     wholeNav.classList.remove("fixed")
+//   }
+// }
 
 
 
