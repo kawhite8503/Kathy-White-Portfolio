@@ -89,3 +89,8 @@ p {
 .fixed {
   position: sticky;
 }
+
+.contact-info {
+  text-align: center;
+  margin: 50px;
+}
