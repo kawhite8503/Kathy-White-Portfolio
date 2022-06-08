@@ -19,8 +19,8 @@ let projectMarkup = projectData.map(project =>
   <div class="card-body">
     <h5 class="card-title">${project.title}</h5>
     <p class="card-text">${project.description}</p>
-    <a href="#" class="btn btn-primary">${project.github}</a>
-    <a href="#" class="btn btn-secondary">${project.deployment}</a>
+    <a href="${project.github}" class="btn btn-primary">GitHub</a>
+    <a href="${project.deployment}" class="btn btn-secondary">Deployment</a>
   </div>
 </div>
   `).join('')

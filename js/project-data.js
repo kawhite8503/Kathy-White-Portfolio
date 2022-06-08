@@ -2,7 +2,7 @@ let projectData = [
   {
     title: "Tic Tac Toe",
     deployment: "",
-    image: "",
+    image: "./assets/tictactoe.png",
     github: "",
     description:"Who will prevail? X or O?"
   },
