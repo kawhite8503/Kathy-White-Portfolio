@@ -14,6 +14,27 @@ if (window.pageYOffset >= sticky) {
   }
 }
 
+
+
+let wholeNav = document.querySelector('.whole-nav');
+let sticky = wholeNav.offsetTop;
+
+
+
+window.onscroll = function(){
+  stickyNav()
+}
+
+function stickyNav (){
+  if (window.pageYOffset > sticky) {
+    wholeNav.classList.add("fixed")
+  } else {
+    wholeNav.classList.remove("fixed")
+  }
+}
+
+
+
 // add github icon and linked in icon to nav bar
 //get navbar to scroll with page
 //fix picture styling - smaller, centered on page

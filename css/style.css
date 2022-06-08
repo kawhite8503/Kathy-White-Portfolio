@@ -35,7 +35,7 @@ ul {
 }
 
 body {
-  display: flex;
+  display: grid;
   flex-direction: column;
   background-color:#dac6cb;
   background-size: cover;
@@ -43,6 +43,16 @@ body {
 .header {
   width: 100%;
   
+}
+
+.section-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sections {
+  display: grid;
 }
 
 
@@ -74,4 +84,8 @@ p {
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+.fixed {
+  position: sticky;
 }
