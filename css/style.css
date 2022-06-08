@@ -33,21 +33,12 @@ body {
   justify-content: center;
 }
 
-.name-at-corner {
-
-}
-
 .mission-pic {
   display: flex;
   align-items: center;
   justify-content: center;
   max-width: 800px;
   margin: auto;
-}
-
-.header {
-  width: 100%;
-  
 }
 
 .section-heading {
@@ -58,12 +49,7 @@ body {
 
 .sections {
   display: grid;
-}
-
-
-.header-elements {
-  width: 100%;
-  margin-left: 0;
+  min-height: 500px;
 }
 
 li {
@@ -81,6 +67,10 @@ li {
   
 }
 
+.contact-info {
+  text-align: center;
+  margin: 50px;
+}
 
 .sticky {
   position: fixed;
@@ -90,9 +80,4 @@ li {
 
 .fixed {
   position: sticky;
-}
-
-.contact-info {
-  text-align: center;
-  margin: 50px;
-}
+  }

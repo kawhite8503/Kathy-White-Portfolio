@@ -78,9 +78,8 @@ console.log(projectMarkup)
 
 // add github icon and linked in icon to nav bar
 //get navbar to scroll with page
-//fix picture styling - smaller, centered on page
 //figure out how to put mission statement on top of picture, centered
 //type out About section
-//add card(s) for work section
+//edit cards
 //update resume
 //attach resume to button?
