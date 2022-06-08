@@ -7,7 +7,7 @@ html {
 *::before, /* All ::before pseudo-elements */
 *::after { /* All ::after pseudo-elements */
   /* height & width will now include border & padding by default
-     but can be over-ridden as needed */
+  but can be over-ridden as needed */
   box-sizing: inherit;
 }
 
@@ -15,23 +15,8 @@ ul {
   list-style: none;
 }
 
-.header ul{
-  margin: 0;
-  padding: 0;
-  display: flex;
-  width: 100%;
-  justify-content: center;
-}
-
-
-.name-at-corner {
-
-}
-
-.mission-pic {
-  max-width: 100%;
-  max-height: 480;
-  object-position: 50% 50%;
+p {
+  color: #656878;
 }
 
 body {
@@ -40,6 +25,26 @@ body {
   background-color:#dac6cb;
   background-size: cover;
 }
+.header ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.name-at-corner {
+
+}
+
+.mission-pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  margin: auto;
+}
+
 .header {
   width: 100%;
   
@@ -76,9 +81,6 @@ li {
   
 }
 
-p {
-  color: #656878;
-}
 
 .sticky {
   position: fixed;
