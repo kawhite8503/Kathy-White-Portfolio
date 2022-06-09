@@ -56,6 +56,10 @@ body {
 li {
   margin: 10px;
 }
+.sticky-top {
+  position: sticky;
+  top: 0;
+}
 
 /* .image-mission-statement {
   background-image: "./assets/background.jpg";
@@ -103,7 +107,7 @@ footer {
 
 #resume-button {
   text-decoration: none;
-  border: solid 2px #dbe7fb;
+  border: solid 2px #ab818b;
   border-radius: 5px;
   background-color: #6b5f5e;
   color: #dbe7fb;
@@ -114,6 +118,11 @@ footer {
 #resume-button:hover {
   background-color: #ab818b;
 }
+/* 
+.image-mission-statement {
+  background-image: url("./assets/background.jpg");
+  <img src="./assets/background.jpg" class="mission-pic">
+} */
 
 
 @media only screen and (max-width: 768px) {
