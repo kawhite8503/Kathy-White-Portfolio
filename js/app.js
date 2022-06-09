@@ -35,11 +35,15 @@ const brandName = document.querySelector('#brand')
 
 
 
+// function createDivs(){
+//   projectData.forEach(element => {
+//     const newDiv = document.createElement('div')
+//   });
+// }
 
+// createDivs()
 
-
-
-
+console.log(createDivs)
 
 
 

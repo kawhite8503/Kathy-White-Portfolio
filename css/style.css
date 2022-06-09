@@ -52,6 +52,14 @@ body {
   min-height: 500px;
 }
 
+#card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
 li {
   margin: 10px;
 }
@@ -85,10 +93,6 @@ li {
   max-width: 30px;
 }
 
-.card-container {
-  display: flex;
-  flex-direction: row;
-}
 
 footer {
   min-height: 100px;
