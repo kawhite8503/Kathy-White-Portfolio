@@ -21,6 +21,56 @@ let projectData = [
   },
 ]
 
+let skills = [
+  {
+    skill: 'CSS',
+    image: '',
+  },
+  {
+    skill: 'HTML',
+    image: '',
+  },
+  {
+    skill: 'JavaScript',
+    image: '',
+  },
+  {
+    skill: 'Node',
+    image: '',
+  },
+  {
+    skill: 'Express',
+    image: '',
+  },
+  {
+    skill: 'MongoDB',
+    image: '',
+  },
+  {
+    skill: 'Mongoose',
+    image: '',
+  },
+  {
+    skill: 'React',
+    image: '',
+  },
+  {
+    skill: 'Python',
+    image: '',
+  },
+  {
+    skill: 'PostgreSQL',
+    image: '',
+  },  {
+    skill: 'Django',
+    image: '',
+  }
+]
+// const aboutMe = {
+//   "Hi!"
+// }
+
+
 export {
   projectData
 }

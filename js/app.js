@@ -3,15 +3,6 @@ import
 
 const cardContainer = document.querySelector('#card-container')
 
-
-let project = {
-  title: "Tic Tac Toe",
-  deployment: "",
-  image: "",
-  github: "",
-  description:"Who will prevail? X or O?"
-}
-
 let projectMarkup = projectData.map(project =>
   `
 <div class="card" style="width: 18rem;">
@@ -33,17 +24,6 @@ cardContainer.innerHTML = projectMarkup
 const brandName = document.querySelector('#brand')
 
 
-
-
-// function createDivs(){
-//   projectData.forEach(element => {
-//     const newDiv = document.createElement('div')
-//   });
-// }
-
-// createDivs()
-
-console.log(createDivs)
 
 
 

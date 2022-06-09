@@ -48,15 +48,16 @@ body {
 }
 
 .sections {
-  display: grid;
-  min-height: 500px;
+
+  min-height: 200px;
 }
 
 #card-container {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+  /* flex-wrap: wrap; */
+  justify-content: space-around;
+  padding: 20px;
 
 }
 
@@ -70,9 +71,10 @@ li {
 } */
 
 .section-heading {
-  border: solid 1px #bfc5c4;
+  border: solid 1px #8a6968;
   background-color: #dbe7fb;
-  color: #322f2f;
+  color: #5f5a5a;
+  margin: 75px 0;
   
 }
 
@@ -96,6 +98,20 @@ li {
 
 footer {
   min-height: 100px;
+}
+
+#resume {
+  justify-content: center;
+}
+
+#resume-button {
+  text-decoration: none;
+  border: solid 2px #dbe7fb;
+  border-radius: 5px;
+  background-color: #8a6968;
+  color: #dbe7fb;
+  padding: 15px 65px;
+  font-size: 20px;
 }
 
 .sticky {
