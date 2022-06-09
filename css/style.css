@@ -24,6 +24,7 @@ body {
   flex-direction: column;
   background-color:#dac6cb;
   background-size: cover;
+  font-family: 'Lato', sans-serif;
 }
 .header ul{
   margin: 0;
