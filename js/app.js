@@ -20,12 +20,14 @@ let projectMarkup = projectData.map(project =>
 
 cardContainer.innerHTML = projectMarkup
 
+const resumeBtn = document.querySelector('#resume-button')
 
-const brandName = document.querySelector('#brand')
+// resumeBtn.addEventListener('click', play())
 
-
-
-
+// function play(){
+//   let audio = document.querySelector('#resume-button');
+//   audio.play();
+// }
 
 
 // window.onscroll = function() {scrollFunction()};

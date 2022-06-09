@@ -78,6 +78,13 @@ li {
   margin: 75px 0;
   
 }
+.btn-primary {
+  background-color: #6b5f5e;
+}
+
+.btn-secondary {
+  background-color: #ab818b;
+}
 
 .contact-info {
   text-align: center;
@@ -109,10 +116,14 @@ footer {
   text-decoration: none;
   border: solid 2px #dbe7fb;
   border-radius: 5px;
-  background-color: #8a6968;
+  background-color: #6b5f5e;
   color: #dbe7fb;
   padding: 15px 65px;
   font-size: 20px;
+}
+
+#resume-button:hover {
+  background-color: #ab818b;
 }
 
 .sticky {
