@@ -7,22 +7,15 @@ let projectData = [
     description:"Who will prevail? X or O?"
   },
   {
-    title: 'Guess the number',
-    deployment: "",
-    image: "",
-    github: "",
-    description:"The practical solution for 'Who gets to go first?'!"
-  },
-  {
     title: 'Future Project',
     deployment: "",
-    image: "",
+    image: "./assets/Futuristic.png",
     github: "",
     description:"This will blow your mind!"
   }, {
     title: 'Future project',
     deployment: "",
-    image: "",
+    image: "./assets/handpic.png",
     github: "",
     description:"Magnificent project"
   },

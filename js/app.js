@@ -23,14 +23,16 @@ let projectMarkup = projectData.map(project =>
     <a href="${project.deployment}" class="btn btn-secondary">Deployment</a>
   </div>
 </div>
-  `).join('')
+  `).join(' ')
 
 
 
 cardContainer.innerHTML = projectMarkup
 
 
-console.log(projectMarkup)
+const brandName = document.querySelector('#brand')
+
+
 
 
 

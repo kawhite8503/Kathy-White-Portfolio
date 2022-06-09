@@ -37,7 +37,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 800px;
+  max-width: 80vw;
   margin: auto;
 }
 
@@ -86,7 +86,8 @@ li {
 }
 
 .card-container {
-
+  display: flex;
+  flex-direction: row;
 }
 
 footer {
@@ -102,3 +103,7 @@ footer {
 .fixed {
   position: sticky;
   }
+
+  /* #brand:hover {
+    content: "TEST";
+  } */
