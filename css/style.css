@@ -20,6 +20,7 @@ body {
   flex-direction: column;
   background-color:#dac6cb;
   font-family: 'Lato', sans-serif;
+  margin: auto;
 }
 
 .section-heading {
@@ -114,8 +115,9 @@ footer {
 
 #resume a {
   display: flex;
-  justify-content: center;
   text-decoration: none;
+  width: 262px;
+  margin: auto;
 }
 
 #resume-button {
@@ -123,7 +125,7 @@ footer {
   border-radius: 5px;
   background-color: #6b5f5e;
   color: #dbe7fb;
-  padding: 15px 65px;
+  padding: 15px 50px;
   font-size: 20px;
   justify-content: center;
 }
@@ -134,17 +136,17 @@ footer {
 }
 
 #skills-button {
-  border: solid 2px #ab818b;
+  display: flex;
+  border: solid 2px #6b5f5e;
   border-radius: 5px;
-  background-color: #6b5f5e;
+  background-color: #ab818b;
   color: #dbe7fb;
   font-size: 16px;
   justify-content: center;
 }
 
-#skills-section {
-  display: flex;
-  justify-content: center;
+#skills-section button{
+  margin: 7vw auto 0;
 }
 
 #skill-list {
