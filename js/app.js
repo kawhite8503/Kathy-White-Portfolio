@@ -42,5 +42,5 @@ const kittyPic = document.querySelector('#kitty')
 const catName = document.querySelector('#kitty-name')
 
 kittyPic.addEventListener('click', function(){
-  catName.innerHTML =  "Litty Jerry Seinfeld"
+  catName.innerHTML =  "Little Jerry Seinfeld"
 })
