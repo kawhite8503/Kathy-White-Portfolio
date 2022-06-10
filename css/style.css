@@ -141,9 +141,28 @@ footer {
   margin: 20px 20px 0;
 }
 
-@media only screen and (max-width: 768px) {
+#skill-list {
+  margin: 7vw 17vw 0 17vw;
+}
+
+@media (max-width: 768px) {
   #card-container {
     display: flex;
     flex-wrap: wrap;
-  }
-}
+}}
+
+@media (min-width: 768px){
+.navbar-expand-lg .navbar-toggler {
+    display: none;
+}}
+
+@media (min-width: 768px){
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+}}
+
+@media (min-width: 768px){
+.navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+}}

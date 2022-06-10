@@ -17,13 +17,13 @@ let projectMarkup = projectData.map(project =>
   `).join(' ')
 
 let skillsElement = skills.map(skill =>
-  `
-  `
-  )
+  `${skill}
+  `).join(' | ')
 
 cardContainer.innerHTML = projectMarkup
 
-
+const skillList = document.querySelector('#skill-list')
+skillList.innerHTML = skillsElement
 
 // const resumeBtn = document.querySelector('#resume-button')
 
