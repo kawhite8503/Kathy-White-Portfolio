@@ -48,8 +48,9 @@ body {
 #second-row {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   margin: 20px;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .pics {
@@ -60,6 +61,7 @@ body {
 #hubby {
 max-width: 25vw;
 margin-left: 0 20vw;
+border: solid 2px whitesmoke;
 }
 
 #about-me1 {
@@ -73,15 +75,18 @@ margin-left: 0 20vw;
 }
 
 #simon {
-  max-width: 10vw;
+  max-width: 15vw;
+  border: solid 2px whitesmoke;
 }
 
 #fam {
   max-width: 40vw;
+  border: solid 2px whitesmoke;
 }
 
 #kitty {
-  max-width: 10vw;
+  max-width: 20vw;
+  border: solid 2px whitesmoke;
 }
 
 #card-container {

@@ -30,7 +30,17 @@ skillBtn.addEventListener('click', function(){
 })
 
 
+const simonPic = document.querySelector('#simon')
+const dogName = document.querySelector('#simon-name')
+
+simonPic.addEventListener('click', function(){
+  dogName.innerHTML =  "Simon"
+})
 
 
+const kittyPic = document.querySelector('#kitty')
+const catName = document.querySelector('#kitty-name')
 
-
+kittyPic.addEventListener('click', function(){
+  catName.innerHTML =  "Litty Jerry Seinfeld"
+})
