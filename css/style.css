@@ -134,7 +134,6 @@ footer {
   text-decoration: none;
   width: 262px;
   margin: auto;
-  /* margin: 35px auto; */
 }
 
 #resume-button {
@@ -177,6 +176,10 @@ footer {
   margin: 20px 20px 0;
 }
 
+#quote {
+font-size: 20px;
+text-align: right;
+}
 #skill-list {
   margin: 7vw 17vw 0 17vw;
 }
