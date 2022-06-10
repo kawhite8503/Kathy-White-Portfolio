@@ -1,7 +1,7 @@
 let projectData = [
   {
     title: "Tic Tac Toe",
-    deployment: "",
+    deployment: "https://ttt-weekend-kawhite8503.netlify.app/",
     image: "./assets/tictactoe.png",
     github: "",
     description:"Who will prevail? X or O?"

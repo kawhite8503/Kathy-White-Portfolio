@@ -1,9 +1,12 @@
 Attributions and disclaimers:
 
+Favicon: https://favicon.io/emoji-favicons/
+
 
 Futuristic image source:
 https://www.freepik.com/photos/gaming-wallpaper" Gaming wallpaper photo created by wirestock - www.freepik.com
 
+Card template: Bootstrap
 
 The MIT License (MIT)
 
