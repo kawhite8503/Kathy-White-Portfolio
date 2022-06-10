@@ -285,4 +285,8 @@ color: #8a6968;
   #kitty-section {
     display: none;
   }
+  #about-me2 {
+    margin: 5px 20px;
+    max-width: 78vw;
+  }
 }
