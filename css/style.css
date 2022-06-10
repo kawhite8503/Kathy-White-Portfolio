@@ -57,6 +57,9 @@ body {
   max-width: 100px;
   border-radius: 10px;
 }
+#skills-section {
+  margin-top: 30px;
+}
 
 #hubby {
 max-width: 32vw;
@@ -167,7 +170,7 @@ footer {
 #resume a {
   display: flex;
   text-decoration: none;
-  width: 262px;
+  width: 242px;
   margin: auto;
 }
 
