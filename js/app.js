@@ -30,19 +30,7 @@ skillBtn.addEventListener('click', function(){
 })
 
 
-// const resumeBtn = document.querySelector('#resume-button')
 
-// resumeBtn.addEventListener('click', play())
-
-// function play(){
-//   let audio = document.querySelector('#resume-button');
-//   audio.play();
-// }
-
-
-//figure out how to put mission statement on top of picture, centered
-//type out About section
-//edit cards
 
 
 
