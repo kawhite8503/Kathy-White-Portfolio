@@ -23,7 +23,12 @@ let skillsElement = skills.map(skill =>
 cardContainer.innerHTML = projectMarkup
 
 const skillList = document.querySelector('#skill-list')
-skillList.innerHTML = skillsElement
+const skillBtn = document.querySelector('#skills-button')
+skillBtn.addEventListener('click', function(){
+  skillList.innerHTML = skillsElement
+  skillBtn.remove()
+})
+
 
 // const resumeBtn = document.querySelector('#resume-button')
 

@@ -133,6 +133,23 @@ footer {
   border: solid 2px #6b5f5e;
 }
 
+#skills-button {
+  border: solid 2px #ab818b;
+  border-radius: 5px;
+  background-color: #6b5f5e;
+  color: #dbe7fb;
+  font-size: 16px;
+  justify-content: center;
+}
+
+#skills-section {
+  display: flex;
+  justify-content: center;
+}
+
+#skill-list {
+  font-style: italic;
+}
 .mission-pic {
   padding: 30px 0 0 0;
 }
