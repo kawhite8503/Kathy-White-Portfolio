@@ -38,10 +38,17 @@ body {
   padding-top: 50px;
 }
 
-#images {
+#hubby-section {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-between;
+}
+
+#second-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .pics {
@@ -50,8 +57,30 @@ body {
 }
 
 #hubby {
-max-width: 200px;
+max-width: 25vw;
 margin-left: 0 20vw;
+}
+
+#about-me1 {
+  margin: 5px 20px;
+  max-width: 30vw;
+}
+
+#about-me2 {
+  margin: 5px 20px;
+  max-width: 30vw;
+}
+
+#simon {
+  max-width: 10vw;
+}
+
+#fam {
+  max-width: 40vw;
+}
+
+#kitty {
+  max-width: 10vw;
 }
 
 #card-container {
@@ -179,6 +208,7 @@ footer {
 #quote {
 font-size: 20px;
 text-align: right;
+color: #8a6968;
 }
 #skill-list {
   margin: 7vw 17vw 0 17vw;
