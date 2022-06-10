@@ -48,7 +48,7 @@ body {
 #second-row {
   display: flex;
   flex-direction: row;
-  margin: 20px;
+  margin: 50px 0 0 0;
   justify-content: space-evenly;
   align-items: center;
 }
@@ -59,7 +59,7 @@ body {
 }
 
 #hubby {
-max-width: 25vw;
+max-width: 32vw;
 margin-left: 0 20vw;
 border: solid 2px whitesmoke;
 }
@@ -80,12 +80,12 @@ border: solid 2px whitesmoke;
 }
 
 #fam {
-  max-width: 40vw;
+  max-width: 50vw;
   border: solid 2px whitesmoke;
 }
 
 #kitty {
-  max-width: 20vw;
+  max-width: 15vw;
   border: solid 2px whitesmoke;
 }
 
@@ -211,6 +211,16 @@ footer {
   margin: 20px 20px 0;
 }
 
+#simon-name {
+  text-align: center;
+  font-size: 18;
+}
+
+#kitty-name {
+  text-align: center;
+  font-size: 18;
+}
+
 #quote {
 font-size: 20px;
 text-align: right;
@@ -255,9 +265,21 @@ color: #8a6968;
     display: none;
   }
   #hubby {
-    min-width: 65vw;
+    min-width: 55vw;
   }
+
+  #fam {
+    min-width: 80vw;
+  }
+
   #about-me2:before {
     content: "Hi! I'm Kathy! Former CT tech of 11.5 years turned enthusiastic Software Engineer, ready to tackle a new exciting industry! Problem solving, project management, and building lasting relationships are just a few of the skills I plan to bring with me on this new journey! ${kathys-favorite-aspects-of-software-engineering}."
+  }
+  #simon-section {
+    display: none;
+  }
+
+  #kitty-section {
+    display: none;
   }
 }
