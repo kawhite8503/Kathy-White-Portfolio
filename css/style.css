@@ -38,6 +38,22 @@ body {
   padding-top: 50px;
 }
 
+#images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pics {
+  max-width: 100px;
+  border-radius: 10px;
+}
+
+#hubby {
+max-width: 200px;
+margin-left: 0 20vw;
+}
+
 #card-container {
   display: flex;
   flex-direction: row;
@@ -69,7 +85,7 @@ li {
   border: solid 1px #8a6968;
   background-color: #dbe7fb;
   color: #5f5a5a;
-  margin: 35px 0;
+  margin: 45px 0;
 }
 
 .btn-primary {
@@ -118,6 +134,7 @@ footer {
   text-decoration: none;
   width: 262px;
   margin: auto;
+  /* margin: 35px auto; */
 }
 
 #resume-button {
@@ -125,7 +142,7 @@ footer {
   border-radius: 5px;
   background-color: #6b5f5e;
   color: #dbe7fb;
-  padding: 15px 50px;
+  padding: 15px 50px; /*65*/
   font-size: 20px;
   justify-content: center;
 }
@@ -142,11 +159,11 @@ footer {
   background-color: #ab818b;
   color: #dbe7fb;
   font-size: 16px;
-  justify-content: center;
+  padding: 5px 15px;
 }
 
 #skills-section button{
-  margin: 7vw auto 0;
+  margin: auto;
 }
 
 #skill-list {
