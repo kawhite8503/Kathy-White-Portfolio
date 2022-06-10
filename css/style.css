@@ -21,7 +21,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color:#dac6cb;
-  background-size: cover;
+  /* background-size: cover; */
   font-family: 'Lato', sans-serif;
 }
 
@@ -80,10 +80,12 @@ li {
 
 .btn-primary {
   background-color: #6b5f5e;
+  border:  solid 1px#ab818b;
 }
 
 .btn-secondary {
   background-color: #ab818b;
+  border: solid 1px #6b5f5e;
 }
 
 .contact-info {
