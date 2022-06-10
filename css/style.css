@@ -15,22 +15,11 @@ p {
   color: #656878;
 }
 
-/* id="whole-nav" */
-
 body {
   display: flex;
   flex-direction: column;
   background-color:#dac6cb;
-  /* background-size: cover; */
   font-family: 'Lato', sans-serif;
-}
-
-.mission-pic {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 80vw;
-  margin: auto;
 }
 
 .section-heading {
@@ -41,18 +30,18 @@ body {
 }
 
 .sections {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   min-height: 200px;
   padding-top: 50px;
-  /* justify-content: center; */
 }
 
 #card-container {
   display: flex;
   flex-direction: row;
-  /* flex-wrap: wrap; */
   justify-content: space-around;
   padding: 20px;
-  
 }
 
 li {
@@ -63,20 +52,23 @@ li {
   top: 0;
 }
 
-/* .image-mission-statement {
-  background-image: "./assets/background.jpg";
+.image-mission-statement {
+  background-image: url("../assets/background.jpg");
   background-size: cover;
-} */
+  background-position: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80vw;
+  margin: 50px auto 0;
+  min-height: 50vh;
+}
 
 .section-heading {
   border: solid 1px #8a6968;
   background-color: #dbe7fb;
   color: #5f5a5a;
-  margin: 75px 0;
-}
-
-.scroll-target {
-
+  margin: 35px 0;
 }
 
 .btn-primary {
@@ -124,8 +116,6 @@ footer {
   display: flex;
   justify-content: center;
   text-decoration: none;
-  /* width: 100%; */
-
 }
 
 #resume-button {
@@ -133,7 +123,6 @@ footer {
   border-radius: 5px;
   background-color: #6b5f5e;
   color: #dbe7fb;
-  /* margin-left: 50%; */
   padding: 15px 65px;
   font-size: 20px;
   justify-content: center;
@@ -143,37 +132,18 @@ footer {
   background-color: #ab818b;
   border: solid 2px #6b5f5e;
 }
-/* 
-.image-mission-statement {
-  background-image: url("./assets/background.jpg");
-  <img src="./assets/background.jpg" class="mission-pic">
-} */
+
 .mission-pic {
   padding: 30px 0 0 0;
 }
 
+.card {
+  margin: 20px 20px 0;
+}
 
 @media only screen and (max-width: 768px) {
   #card-container {
     display: flex;
     flex-wrap: wrap;
-    /* flex-wrap: wrap; */
-
-    
   }
 }
-
-@media only screen and (max-width: 950px) {
-  #card-container {
-    display: flex;
-    flex-wrap: wrap;
-    /* flex-wrap: wrap; */
-
-    
-  }
-}
-
-/* @media only screen and (min-width: 1024px) {
-  body {
-
-  } */

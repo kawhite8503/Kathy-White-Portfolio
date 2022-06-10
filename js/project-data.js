@@ -23,7 +23,7 @@ let projectData = [
 
 
 export {
-  projectData
+  projectData, skills
 }
 
-// let skills = ['CSS', 'HTML', 'JavaScript', 'Node', 'Express', 'MongoDB', 'Mongoose', 'React' 'Python', 'PostgreSQL', 'Django']
+let skills = ['CSS', 'HTML', 'JavaScript', 'Node', 'Express', 'MongoDB', 'Mongoose', 'React', 'Python', 'PostgreSQL', 'Django']

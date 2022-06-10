@@ -1,5 +1,5 @@
 import
-{projectData} from "./project-data.js"; 
+{projectData, skills} from "./project-data.js"; 
 
 const cardContainer = document.querySelector('#card-container')
 
@@ -16,7 +16,10 @@ let projectMarkup = projectData.map(project =>
 </div>
   `).join(' ')
 
-
+let skillsElement = skills.map(skill =>
+  `
+  `
+  )
 
 cardContainer.innerHTML = projectMarkup
 
