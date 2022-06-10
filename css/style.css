@@ -42,6 +42,7 @@ body {
 
 .sections {
   min-height: 200px;
+  padding-top: 50px;
   /* justify-content: center; */
 }
 
@@ -83,9 +84,21 @@ li {
   border:  solid 1px#ab818b;
 }
 
+.btn-primary:hover {
+  color: #656878;
+  background-color: #dbe7fb;
+  border:  solid 1px#6b5f5e;
+}
+
 .btn-secondary {
   background-color: #ab818b;
   border: solid 1px #6b5f5e;
+}
+
+.btn-secondary:hover {
+  color: #656878;
+  background-color: #dbe7fb;
+  border: solid 1px ##ab818b;
 }
 
 .contact-info {
