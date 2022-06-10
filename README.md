@@ -2,6 +2,8 @@ Kathy White, Software Engineer portfolio
 
 Thank you for visiting my very first website!! I am still a student at General Assembly, but plan to continue updating and editing the site as I learn more and have more projects to share!!
 
+Launch here: https://shimmering-kringle-481e19.netlify.app/
+
 Technologies used:
 CSS
 Javascript
