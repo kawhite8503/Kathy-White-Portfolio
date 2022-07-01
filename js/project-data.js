@@ -7,11 +7,11 @@ let projectData = [
     description:"Who will prevail? X or O?"
   },
   {
-    title: 'Future Project',
-    deployment: "",
-    image: "./assets/Futuristic.png",
-    github: "",
-    description:"This will blow your mind!"
+    title: 'Travel Prep App',
+    deployment: "https://travel-prep-app.herokuapp.com/",
+    image: "./assets/Unit2Project.png",
+    github: "https://github.com/kawhite8503/travel-prep-app-unit2",
+    description:"An app designed to help you plan your adventures!"
   }, {
     title: 'Future project',
     deployment: "",
