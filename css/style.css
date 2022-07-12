@@ -2,12 +2,10 @@ html {
   box-sizing: border-box;
 }
 
-/* The Universal Selector */
-*, /* All elements*/
-*::before, /* All ::before pseudo-elements */
-*::after { /* All ::after pseudo-elements */
-  /* height & width will now include border & padding by default
-  but can be over-ridden as needed */
+
+*, 
+*::before,
+*::after { 
   box-sizing: inherit;
 }
 
@@ -65,7 +63,7 @@ body {
 max-width: 32vw;
 margin-left: 0 20vw;
 border: solid 2px whitesmoke;
-margin: 0 0 50px 0;
+margin: 0 0 80px 0;
 }
 
 #about-me1 {
@@ -180,7 +178,7 @@ footer {
   border-radius: 5px;
   background-color: #6b5f5e;
   color: #dbe7fb;
-  padding: 15px 50px; /*65*/
+  padding: 15px 50px;
   font-size: 20px;
   justify-content: center;
 }
@@ -206,6 +204,7 @@ footer {
 
 #skill-list {
   font-style: italic;
+  text-align: center;
 }
 .mission-pic {
   padding: 30px 0 0 0;
@@ -230,10 +229,18 @@ font-size: 20px;
 text-align: right;
 color: #8a6968;
 }
+
 #skill-list {
   margin: 7vw 17vw 0 17vw;
 }
 
+#first-paragraph {
+  margin: 60px 0 0 0;
+}
+
+#second-paragraph {
+  margin: 60px 0 0 0;
+}
 
 @media (max-width: 768px) {
   #card-container {
@@ -268,6 +275,9 @@ color: #8a6968;
   #first-paragraph {
     display: none;
   }
+
+
+  
   #hubby {
     min-width: 55vw;
   }
@@ -294,5 +304,5 @@ color: #8a6968;
 
 #intro-to-kathy {
   text-align: center;
-  margin: 0 0 30px 0;
+  margin: 30px 0;
 }
