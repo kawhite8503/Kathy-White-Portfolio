@@ -65,6 +65,7 @@ body {
 max-width: 32vw;
 margin-left: 0 20vw;
 border: solid 2px whitesmoke;
+margin: 0 0 50px 0;
 }
 
 #about-me1 {
@@ -289,4 +290,9 @@ color: #8a6968;
     margin: 5px 20px;
     max-width: 78vw;
   }
+}
+
+#intro-to-kathy {
+  text-align: center;
+  margin: 0 0 30px 0;
 }
