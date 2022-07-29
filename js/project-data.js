@@ -21,7 +21,7 @@ let projectData = [
     description: "A MERN stack planning app for social gatherings!"
   },
   {
-    title: 'Snippy (hackathon)'
+    title: 'Snippy (hackathon)',
     deployment: "https://sei-snippy.netlify.app/",
     image: "./assets/SNIPPY.png",
     github: "",
