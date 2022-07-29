@@ -13,19 +13,19 @@ let projectData = [
     github: "",
     description:"Who will prevail? X or O?"
   },
+  // {
+  //   title: "Social (fx)",
+  //   deployment: "",
+  //   image: "",
+  //   github: "https://github.com/kawhite8503/socialfx-front-end",
+  //   description: "A MERN stack planning app for social gatherings!"
+  // },
   {
-    title: "Social (fx)",
-    deployment: "",
-    image: "",
-    github: "https://github.com/kawhite8503/socialfx-front-end",
-    description: "A MERN stack planning app for social gatherings!"
-  },
-  {
-    title: 'Snippy (hackathon)',
+    title: 'Snippy',
     deployment: "https://sei-snippy.netlify.app/",
     image: "./assets/SNIPPY.png",
     github: "",
-    description: "Best Group Project winner for hackathon. This app was designed to allow you to take notes while viewing lecture recordings, and store those notes with the specific recording."
+    description: "Best Group Project winner for GA's 2.5 day hackathon. This app was designed to allow you to take notes while viewing lecture recordings, and store those notes with the specific recording."
   },
   {
     title: 'Future project',

@@ -212,6 +212,7 @@ footer {
 
 .card {
   margin: 20px 20px 0;
+  min-width: 300px;
 }
 
 #simon-name {
@@ -280,6 +281,7 @@ color: #8a6968;
   
   #hubby {
     min-width: 55vw;
+    margin: 0;
   }
 
   #fam {
@@ -287,7 +289,7 @@ color: #8a6968;
   }
 
   #about-me2:before {
-    content: "Hi! I'm Kathy! Former CT tech of 11.5 years turned enthusiastic Software Engineer, ready to tackle a new exciting industry! Problem solving, project management, and building lasting relationships are just a few of the skills I plan to bring with me on this new journey! ${kathys-favorite-aspects-of-software-engineering}."
+    content: "I’m a former CT tech, with 13.5 years of experience in Radiology and 11.5 years of experience doing CT at a local doctor’s office, managing their CT department. One of the things I loved about my job as a CT tech was witnessing how small details could have such a major impact in patient care and diagnosis. As much as my meticulous brain and empathetic personality helped me succeed in this position, I was yearning for a career that would give me a better work-life balance and help me to better support my family. I spent about a year playing around with code in my downtime and realized how fulfilling it was creating new things and solving puzzles! I’ve always enjoyed learning and finding ways to make things more efficient and realized software engineering was a good fit for me! After doing some bootcamp research, I realized General Assembly had a proven record of success, and that I was up for this new challenge! "
   }
   #simon-section {
     display: none;
