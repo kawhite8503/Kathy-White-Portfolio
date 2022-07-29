@@ -26,7 +26,7 @@ let projectData = [
     image: "./assets/SNIPPY.png",
     github: "",
     description: "Best Group Project winner for hackathon. This app was designed to allow you to take notes while viewing lecture recordings, and store those notes with the specific recording."
-  }
+  },
   {
     title: 'Future project',
     deployment: "",
