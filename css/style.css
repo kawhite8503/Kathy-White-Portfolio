@@ -151,9 +151,14 @@ li {
   border: solid 1px ##ab818b;
 }
 
+.btn{
+  margin: auto 10px auto auto;
+}
+
 .contact-info {
   text-align: center;
   margin: 50px;
+  font-size: 25px;
 }
 
 #linkedin-image {
@@ -173,8 +178,10 @@ footer {
 #resume a {
   display: flex;
   text-decoration: none;
-  width: 242px;
+  width: 340px;
   margin: auto;
+  justify-content: center;
+}
 }
 
 #resume-button {
@@ -183,7 +190,7 @@ footer {
   background-color: #6b5f5e;
   color: #dbe7fb;
   padding: 15px 50px;
-  font-size: 20px;
+  font-size: 25px;
   justify-content: center;
 }
 
@@ -198,7 +205,7 @@ footer {
   border-radius: 5px;
   background-color: #ab818b;
   color: #dbe7fb;
-  font-size: 16px;
+  font-size: 20px;
   padding: 5px 15px;
 }
 
@@ -209,6 +216,7 @@ footer {
 #skill-list {
   font-style: italic;
   text-align: center;
+  font-size: 21px;
 }
 .mission-pic {
   padding: 30px 0 0 0;
@@ -261,6 +269,14 @@ color: #8a6968;
   font-size: 25px;
 }
 
+.card-title{
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.card-text{
+  font-size: 18px;
+}
 
 @media (max-width: 768px) {
   #card-container {
@@ -338,6 +354,11 @@ color: #8a6968;
 
   #first-paragraph {
     display: none;
+  }
+
+  #hubby {
+    min-width: 55vw;
+    margin: 0;
   }
 
   #about-me2:before {
