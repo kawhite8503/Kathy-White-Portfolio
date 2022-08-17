@@ -253,6 +253,14 @@ color: #8a6968;
   font-size: 35px;
 }
 
+.nav-item{
+  font-size: 20px;
+}
+
+.navbar-brand{
+  font-size: 25px;
+}
+
 
 @media (max-width: 768px) {
   #card-container {
