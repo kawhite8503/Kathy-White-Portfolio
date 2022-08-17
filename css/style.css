@@ -246,16 +246,25 @@ color: #8a6968;
   margin: 60px 0 0 0;
 }
 
+#intro-to-kathy {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 35px;
+}
+
+
 @media (max-width: 768px) {
   #card-container {
     display: flex;
     flex-wrap: wrap;
 }}
 
+
 @media (min-width: 768px){
 .navbar-expand-lg .navbar-toggler {
     display: none;
 }}
+
 
 @media (min-width: 768px){
 .navbar-expand-lg .navbar-collapse {
@@ -263,10 +272,12 @@ color: #8a6968;
     flex-basis: auto;
 }}
 
+
 @media (min-width: 768px){
 .navbar-expand-lg .navbar-nav {
     flex-direction: row;
 }}
+
 
 @media (max-width: 768px){
   #hubby-section {
@@ -275,13 +286,11 @@ color: #8a6968;
     align-items: center;
     margin: 0 5px;
   }
-  
+
   #first-paragraph {
     display: none;
   }
 
-
-  
   #hubby {
     min-width: 55vw;
     margin: 0;
@@ -294,6 +303,7 @@ color: #8a6968;
   #about-me2:before {
     content: "I’m a former CT tech, with 13.5 years of experience in Radiology and 11.5 years of experience doing CT at a local doctor’s office, managing their CT department. One of the things I loved about my job as a CT tech was witnessing how small details could have such a major impact in patient care and diagnosis. As much as my meticulous brain and empathetic personality helped me succeed in this position, I was yearning for a career that would give me a better work-life balance and help me to better support my family. I spent about a year playing around with code in my downtime and realized how fulfilling it was creating new things and solving puzzles! I’ve always enjoyed learning and finding ways to make things more efficient and realized software engineering was a good fit for me! After doing some bootcamp research, I realized General Assembly had a proven record of success, and that I was up for this new challenge! "
   }
+
   #simon-section {
     display: none;
   }
@@ -301,14 +311,29 @@ color: #8a6968;
   #kitty-section {
     display: none;
   }
+
   #about-me2 {
     margin: 5px 20px;
     max-width: 78vw;
   }
 }
 
-#intro-to-kathy {
-  text-align: center;
-  margin: 30px 0;
-  font-size: 35px;
+
+@media (max-width: 1450px){
+  #hubby-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 5px;
+  }
+
+  #about-me2:before {
+    content: "I’m a former CT tech, with 13.5 years of experience in Radiology and 11.5 years of experience doing CT at a local doctor’s office, managing their CT department. One of the things I loved about my job as a CT tech was witnessing how small details could have such a major impact in patient care and diagnosis. As much as my meticulous brain and empathetic personality helped me succeed in this position, I was yearning for a career that would give me a better work-life balance and help me to better support my family. I spent about a year playing around with code in my downtime and realized how fulfilling it was creating new things and solving puzzles! I’ve always enjoyed learning and finding ways to make things more efficient and realized software engineering was a good fit for me! After doing some bootcamp research, I realized General Assembly had a proven record of success, and that I was up for this new challenge! "
+  }
+
+  #about-me2 {
+    margin: 5px 20px;
+    max-width: 78vw;
+  }
 }
+
