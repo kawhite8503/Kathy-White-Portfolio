@@ -69,13 +69,13 @@ margin: 0 0 80px 0;
 #about-me1 {
   margin: 5px 20px;
   max-width: 30vw;
-  font-size: 25px;
+  font-size: 23px;
 }
 
 #about-me2 {
   margin: 5px 20px;
   max-width: 30vw;
-  font-size: 25px;
+  font-size: 23px;
 }
 
 #simon {
@@ -126,6 +126,7 @@ li {
   background-color: #dbe7fb;
   color: #5f5a5a;
   margin: 45px 0;
+  font-size: 40px;
 }
 
 .btn-primary {
