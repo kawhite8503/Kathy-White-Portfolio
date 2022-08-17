@@ -161,6 +161,13 @@ li {
   font-size: 25px;
 }
 
+.contact-div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 #linkedin-image {
   max-width: 30px;
   margin-left: 20px;
