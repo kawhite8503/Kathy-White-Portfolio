@@ -278,6 +278,12 @@ color: #8a6968;
   font-size: 18px;
 }
 
+.card-body{
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 @media (max-width: 768px) {
   #card-container {
     display: flex;
