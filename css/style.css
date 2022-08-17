@@ -69,11 +69,13 @@ margin: 0 0 80px 0;
 #about-me1 {
   margin: 5px 20px;
   max-width: 30vw;
+  font-size: 25px;
 }
 
 #about-me2 {
   margin: 5px 20px;
   max-width: 30vw;
+  font-size: 25px;
 }
 
 #simon {
@@ -308,4 +310,5 @@ color: #8a6968;
 #intro-to-kathy {
   text-align: center;
   margin: 30px 0;
+  font-size: 35px;
 }
