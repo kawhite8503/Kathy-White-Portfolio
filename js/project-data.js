@@ -10,7 +10,7 @@ let projectData = [
     title: 'Snippy',
     deployment: "https://sei-snippy.netlify.app/",
     image: "./assets/SNIPPY.png",
-    github: "",
+    github: "https://github.com/kawhite8503/snippy-front-end",
     description: "Best Group Project winner for GA's 2.5 day hackathon. This app was designed to allow you to take notes while viewing lecture recordings, and store those notes with the specific recording."
   },
   {
