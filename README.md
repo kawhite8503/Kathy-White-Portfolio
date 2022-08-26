@@ -1,19 +1,20 @@
-Kathy White, Software Engineer portfolio
+# Kathy White, Software Engineer
 
-Thank you for visiting my very first website!! I am still a student at General Assembly, but plan to continue updating and editing the site as I learn more and have more projects to share!!
+Welcome to my portfolio! This site is a work in progress as my experience as a developer grows! Learn more about me and what projects I've been up to!
 
-Launch here: https://shimmering-kringle-481e19.netlify.app/
+- [Launch here](https://kathywhite-portfolio.netlify.app/)
 
-Technologies used:
+## Technologies used:
 CSS
 Javascript
 HTML
 git
 
-Credits:
-Check out the Attributions file!
+## Credits:
+-[Background photo (modified)](https://unsplash.com/s/photos/)  
+-[Favicon](https://favicon.io/emoji-favicons/)
 
-Ice Box (stretch) goals:
--Add motivational quotes scrolling across the screen
--Input a functioning contact form
--Add more ux functions
+
+## Ice Box (stretch) goals:
+- [ ] Input a functioning contact form  
+- [ ] Add more ux functions
