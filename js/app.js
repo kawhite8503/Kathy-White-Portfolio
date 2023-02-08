@@ -16,9 +16,11 @@ let projectMarkup = projectData.map(project =>
       <a href="${project.github}" target="_blank" class="btn btn-primary">GitHub</a>
       <a href="${project.deployment}" target="_blank" class="btn btn-secondary">Deployment</a>
     </div>
+    <div id="construction"></div>
   </div>
 </div>
   `).join(' ')
+
 
 let skillsElement = skills.map(skill =>
   `${skill}
@@ -28,6 +30,7 @@ cardContainer.innerHTML = projectMarkup
 
 const skillList = document.querySelector('#skill-list')
 const skillBtn = document.querySelector('#skills-button')
+
 skillBtn.addEventListener('click', function(){
   skillList.innerHTML = skillsElement
   skillBtn.remove()
