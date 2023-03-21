@@ -1,7 +1,7 @@
 let projectData = [
   {
     title: 'Travel Prep App',
-    deployment: "https://travel-prep-app.herokuapp.com/",
+    deployment: "https://unit-2-travel-prep-app-kawhite8503.fly.dev",
     image: "./assets/Unit2Project.png",
     github: "https://github.com/kawhite8503/travel-prep-app-unit2",
     description:"An app designed to help you plan your adventures! From Event details to packing lists you can check off in real time, this app has everything you need in one convenient location!"
