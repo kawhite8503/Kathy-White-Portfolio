@@ -6,17 +6,17 @@ const cardContainer = document.querySelector('#card-container')
 let projectMarkup = projectData.map(project =>
   `
 <div class="card" style="width: 18rem;">
-  <img src="${project.image}" class="card-img-top" alt="...">
+  <img src="${project.image}" class="card-img-top" alt="${project.title}">
   <div class="card-body">
     <div>
       <h5 class="card-title">${project.title}</h5>
       <p class="card-text">${project.description}</p>
     </div>
-    <div>
+    <div id="card-buttons">
       <a href="${project.github}" target="_blank" class="btn btn-primary">GitHub</a>
       <a href="${project.deployment}" target="_blank" class="btn btn-secondary">Deployment</a>
     </div>
-    <div id="construction"></div>
+    <div><h5 id="construction" class="card-title">${project.construction}</h5></div>
   </div>
 </div>
   `).join(' ')

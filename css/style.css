@@ -284,16 +284,24 @@ color: #8a6968;
 .card-title{
   font-size: 24px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-text{
   font-size: 18px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .card-body{
   display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
 #left-about{
@@ -304,19 +312,13 @@ color: #8a6968;
   width: 37vw;
 }
 
-#construction-warning{
-  background-color: rgb(248, 247, 247);
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  padding: 15px;
-  border: solid 5px red;
+#card-buttons{
+  padding: 10px 0 10px 0;
 }
 
-#alert-sec{
+#construction{
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 @media (max-width: 768px) {
