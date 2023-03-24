@@ -16,7 +16,7 @@ let projectMarkup = projectData.map(project =>
       <a href="${project.github}" target="_blank" class="btn btn-primary">GitHub</a>
       <a href="${project.deployment}" target="_blank" class="btn btn-secondary">Deployment</a>
     </div>
-    <div><h5 id="construction" class="card-title">${project.construction}</h5></div>
+    <div><p id="construction" class="card-title">${project.construction}</p></div>
   </div>
 </div>
   `).join(' ')
